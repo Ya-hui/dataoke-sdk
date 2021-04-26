@@ -1,0 +1,26 @@
+{
+    "name": "wyh/dataoke",
+    "description": "快速优雅的大淘客SDK,从未如此无与伦比\\n\\nThe fast and elegant Dataoke SDK has never been so unbeatable\\n\\n一个用于大淘客API调用的优秀SDK\\n\\nAn excellent SDK for API calls of Dataoke",
+    "keywords": [
+        "大淘客",
+        "淘宝客",
+        "淘客"
+    ],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wyh",
+            "email": "1579775085@qq.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "DTK\\": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.2"
+    }
+}
