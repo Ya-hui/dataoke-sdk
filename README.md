@@ -73,3 +73,25 @@ print_r($body);
 
 
 ```
+
+#### 扩展API
+
+```php
+
+use DTK\Request\Request;
+
+// 新增相关api  具体参数 看Request 类
+class Coupons extends Request
+{
+    // 通过重写 response方法 可以实现自定义返回信息
+    // public function response(array $$data)
+    // {
+
+    // }
+}
+
+
+//  使用
+$body = $client->run(new Coupons());
+
+```
